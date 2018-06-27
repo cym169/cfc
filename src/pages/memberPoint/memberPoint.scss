@@ -1,0 +1,106 @@
+@import '../../scss/base.scss';
+
+body,
+html {
+    background: #fff;
+}
+
+.header {
+    background: url('../../assets/member_bg.jpg') no-repeat;
+    background-size: cover;
+    height: 118px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    padding: 62px 0 0 0;
+    .header-title {
+        font-size: 33px;
+        font-weight: bold;
+        color: #c79f62;
+    }
+}
+
+.title {
+    background: #f4f3f3;
+    color: #696969;
+    font-size: 14px;
+    line-height: 38px;
+    padding: 0 25px 0px 25px;
+}
+
+.content {
+    padding: 0 25px;
+    .content-item {
+        border-bottom: 1px solid #e2e2e2;
+        font-size: 14px;
+        color: #393939;
+        line-height: 44px;
+        .content-comein {
+            float: right;
+            color: #f5a623;
+        }
+        .content-comeout {
+            float: right;
+            color: #d0021b;
+        }
+    }
+}
+
+.tip {
+    font-size: 10px;
+    color: #696969;
+    padding: 30px 15px 50px 15px;
+}
+
+.submit {
+    padding: 0 15px;
+}
+
+// .discount {
+//     display: flex;
+//     position: relative;
+//     justify-content: flex-start;
+//     background: #fff;
+//     padding: 15px 0;
+//     .discount-flex {
+//         flex: 1;
+//         display: flex;
+//         justify-content: flex-start;
+//     }
+//     .discount-flex:first-child {
+//         border-right: 1px solid #c79f62;
+//     }
+//     .discount-icon {
+//         width: 41px;
+//         height: 41px;
+//         display: inline-block;
+//         margin: 0 10px 0 30px;
+//     }
+//     .discount-cont {
+//         flex: 1;
+//         font-size: 13px;
+//         color: #393939;
+//         line-height: 160%;
+//         display: inline-block;
+//         // margin-top: 4px;
+//         p {
+//             font-size: 10px;
+//             color: #aaa;
+//             display: block;
+//         }
+//     }
+//     .discount-line {
+//         border-right: 1px solid #c79f62;
+//     }
+// }
+.weui-cells {
+    margin-top: 0 !important;
+}
+
+.checkbox .weui-cells:before {
+    border-top: 0 !important;
+}
+
+.checkbox .weui-cells:after {
+    border-bottom: 0 !important;
+}

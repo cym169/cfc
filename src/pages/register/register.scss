@@ -1,0 +1,79 @@
+@import '../../scss/base.scss';
+
+body,
+html {
+    background: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 25px 0;
+    .header-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        display: inline-block;
+    }
+    .header-title {
+        font-size: 15px;
+        color: #696969;
+        text-align: center;
+        padding: 23px 0 5px 0;
+    }
+    // .header-link {
+    //     border-radius: 3px;
+    //     border: 1px solid #c79f62;
+    //     font-size: 10px;
+    //     line-height: 180%;
+    //     color: #c79f62;
+    //     text-decoration: none;
+    //     display: inline-block;
+    //     padding: 0 10px 0 10px;
+    //     .icon-warn {
+    //         width: 13px;
+    //         display: inline-block;
+    //         margin: 0 3px -2px 0;
+    //     }
+    //     .icon-go {
+    //         width: 10px;
+    //     }
+    // }
+}
+
+.title {
+    background: #f4f3f3;
+    color: #989898;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0 0 0px 15px;
+}
+
+.sendBg {
+    background: #ccc;
+}
+
+.tip {
+    font-size: 10px;
+    color: #696969;
+    padding: 30px 15px 50px 15px;
+}
+
+.submit {
+    padding: 0 15px;
+}
+
+.weui-cells {
+    margin-top: 0 !important;
+}
+
+.checkbox .weui-cells:before {
+    border-top: 0 !important;
+}
+
+.checkbox .weui-cells:after {
+    border-bottom: 0 !important;
+}
+
+.vux-x-input.weui-cell_vcode {
+    padding-right: 15px !important;
+}

@@ -1,0 +1,18 @@
+@import '../../scss/base.scss';
+
+body,
+html {
+    background: #fff;
+}
+
+.content {
+    width: 305px;
+    font-size: 13px;
+    color: #696969;
+    padding: 50px 0px 0px 0px;
+    margin: 0 auto;
+    p {
+        padding: 10px 20px;
+        display: inline-block;
+    }
+}

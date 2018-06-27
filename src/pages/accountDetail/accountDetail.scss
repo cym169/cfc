@@ -1,0 +1,112 @@
+@import '../../scss/base.scss';
+
+body,
+html {
+    background: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 25px 0 35px 0;
+    .header-top {
+        font-size: 15px;
+        color: #393939;
+        padding-bottom: 15px;
+    }
+    .header-center {
+        font-size: 25px;
+        font-weight: bold;
+        color: #000;
+        padding-bottom: 10px;
+        span {
+            font-size: 14px;
+        }
+    }
+    .header-bottom {
+        font-size: 14px;
+        color: #ffa431;
+    }
+    .fail {
+        color: #f75252;
+    }
+}
+
+.content {
+    padding: 0 15px 40px 15px;
+    .content-item {
+        font-size: 14px;
+        color: #aaa;
+        padding: 8px 0;
+        display: flex;
+        justify-content: space-between;
+        .content-item-right {
+            flex: 1;
+            font-size: 13px;
+            color: #000;
+            text-align: right;
+        }
+    }
+    .divider {
+        border-bottom: 1px solid #cfcfcf;
+        margin: 15px 0 7px 0;
+    }
+}
+
+.tip {
+    font-size: 10px;
+    color: #696969;
+    padding: 30px 15px 50px 15px;
+}
+
+.submit {
+    padding: 0 15px;
+}
+
+// .discount {
+//     display: flex;
+//     position: relative;
+//     justify-content: flex-start;
+//     background: #fff;
+//     padding: 15px 0;
+//     .discount-flex {
+//         flex: 1;
+//         display: flex;
+//         justify-content: flex-start;
+//     }
+//     .discount-flex:first-child {
+//         border-right: 1px solid #c79f62;
+//     }
+//     .discount-icon {
+//         width: 41px;
+//         height: 41px;
+//         display: inline-block;
+//         margin: 0 10px 0 30px;
+//     }
+//     .discount-cont {
+//         flex: 1;
+//         font-size: 13px;
+//         color: #393939;
+//         line-height: 160%;
+//         display: inline-block;
+//         // margin-top: 4px;
+//         p {
+//             font-size: 10px;
+//             color: #aaa;
+//             display: block;
+//         }
+//     }
+//     .discount-line {
+//         border-right: 1px solid #c79f62;
+//     }
+// }
+.weui-cells {
+    margin-top: 0 !important;
+}
+
+.checkbox .weui-cells:before {
+    border-top: 0 !important;
+}
+
+.checkbox .weui-cells:after {
+    border-bottom: 0 !important;
+}

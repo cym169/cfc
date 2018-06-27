@@ -1,0 +1,60 @@
+@import '../../scss/base.scss';
+
+body,
+html {
+    background: #fff;
+}
+
+.dividers {
+    margin: 20px 0 0 0;
+}
+
+.flexbox {
+    padding: 20px 0;
+    .flexbox-item {
+        text-align: center;
+    }
+}
+
+.bg {
+    background: #f4f3f3;
+    height: 10px;
+}
+
+.content {
+    padding: 0 25px;
+    .content-item {
+        border-bottom: 1px solid #e2e2e2;
+        font-size: 13px;
+        color: #191919;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0 15px 2px;
+        .content-item-left {
+            flex: 1;
+            .content-item-left-time {
+                font-size: 11px;
+                color: #aaa;
+            }
+        }
+        .content-item-right {
+            text-align: right;
+            flex: 1;
+            .content-item-right-num {
+                color: #aaa;
+            }
+        }
+    }
+}
+
+.weui-cells {
+    margin-top: 0 !important;
+}
+
+.weui-cells:before {
+    border-top: 0 !important;
+}
+
+.weui-cells:after {
+    // border-bottom: 0!important;
+}

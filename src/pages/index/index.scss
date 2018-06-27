@@ -1,0 +1,105 @@
+@import '../../scss/base.scss';
+
+body,
+html {
+    background: #fff;
+}
+
+.header {
+    padding: 12px 26px 0 26px;
+    .card-bg {
+        width: 323px;
+        height: 182px;
+        box-sizing: border-box;
+        background: url('../../assets/pukacard_bg.png') no-repeat;
+        background-size: cover;
+        color: #fcecc4;
+        font-size: 18px;
+        padding: 24px 24px;
+        margin: 0 auto;
+        position: relative;
+        .qcode {
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 24px;
+            right: 24px;
+        }
+        .card-num {
+            font-size: 14px;
+            color: #d4bc81;
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+        }
+    }
+}
+
+.item-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    .item {
+        flex: 1;
+        font-size: 13px;
+        color: #696969;
+        text-align: center;
+        border-right: 1px solid #e2e2e2;
+        span {
+            font-size: 18px;
+            color: #75a1de;
+            display: block;
+        }
+    }
+    .item:last-child {
+        border-right: 0;
+        span {
+            color: #393939;
+        }
+    }
+}
+
+.dialog-demo {
+    .weui-dialog {
+        border-radius: 8px;
+        padding-bottom: 8px;
+    }
+    .img-box {
+        overflow: hidden;
+    }
+    .vux-close {
+        position: relative;
+        height: 20px;
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .vux-close:before,
+    .vux-close:after {
+        content: '';
+        position: absolute;
+        left: 48%;
+        top: 11px;
+        width: 24px;
+        height: 1px;
+        background-color: currentColor;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .vux-close:after {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+.weui-cells {
+    margin-top: 0 !important;
+}
+
+.weui-cells:before {
+    border-top: 0 !important;
+}
+
+.weui-cells:after {
+    border-bottom: 0 !important;
+}

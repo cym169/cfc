@@ -1,0 +1,95 @@
+@import '../../scss/base.scss';
+
+body,
+html {
+    background: #fff;
+}
+
+.header {
+    background: url('../../assets/member_bg.jpg') no-repeat;
+    background-size: cover;
+    height: 118px;
+    text-align: center;
+    font-size: 20px;
+    color: #c79f62;
+    padding: 50px 0 0 0;
+    .header-title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+.bg {
+    background: #f4f3f3;
+    height: 10px;
+}
+
+.content {
+    font-size: 16px;
+    color: #393939;
+    padding: 0px 30px 40px 30px;
+    .name {
+        display: flex;
+        justify-content: flex-start;
+        margin: 25px 0;
+        span {
+            line-height: 33px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        .remark-input {
+            flex: 1;
+            height: 33px;
+            border: 1px solid #393939;
+            border-radius: 5px;
+            padding: 0 10px;
+            margin: 0 0 0 44px;
+        }
+    }
+    .input-item {
+        width: 120px;
+        height: 33px;
+        border: 1px solid #393939;
+        border-radius: 5px;
+        text-align: center;
+        margin: 0 0 0 85px;
+    }
+    .check-item {
+        display: block;
+        margin-left: 85px;
+    }
+    .content-item {
+        border-bottom: 1px solid #e2e2e2;
+        font-size: 13px;
+        color: #191919;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0 15px 2px;
+        .content-item-left {
+            flex: 1;
+            .content-item-left-time {
+                font-size: 11px;
+                color: #aaa;
+            }
+        }
+        .content-item-right {
+            text-align: right;
+            flex: 1;
+            .content-item-right-num {
+                color: #aaa;
+            }
+        }
+    }
+}
+
+.weui-cells {
+    margin-top: 0 !important;
+}
+
+.weui-cells:before {
+    border-top: 0 !important;
+}
+
+.weui-cells:after {
+    // border-bottom: 0!important;
+}
