@@ -1,5 +1,4 @@
 @import '../../scss/base.scss';
-
 body,
 html {
     background: #fff;
@@ -66,17 +65,17 @@ html {
 }
 
 .weui-cells {
-    margin-top: 9px !important;
+    margin-top: 9px!important;
 }
 
 .weui-select {
     border-radius: 5px;
-    background: #f5f5f5 !important;
+    background: #f5f5f5!important;
 }
 
 .weui-cell_select .weui-cell__bd:after {
-    transform: rotate(135deg) !important;
-    border-color: #888 !important;
+    transform: rotate(135deg)!important;
+    border-color: #888!important;
     background: #f5f5f5;
     z-index: 99;
 }

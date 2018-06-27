@@ -1,5 +1,4 @@
 @import '../../scss/base.scss';
-
 body,
 html {
     background: #fff;
@@ -100,13 +99,13 @@ html {
 //     }
 // }
 .weui-cells {
-    margin-top: 0 !important;
+    margin-top: 0!important;
 }
 
 .checkbox .weui-cells:before {
-    border-top: 0 !important;
+    border-top: 0!important;
 }
 
 .checkbox .weui-cells:after {
-    border-bottom: 0 !important;
+    border-bottom: 0!important;
 }

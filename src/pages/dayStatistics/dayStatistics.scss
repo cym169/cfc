@@ -1,5 +1,4 @@
 @import '../../scss/base.scss';
-
 body,
 html {
     background: #fff;
@@ -83,11 +82,11 @@ html {
 }
 
 .weui-cells {
-    margin-top: 0 !important;
+    margin-top: 0!important;
 }
 
 .weui-cells:before {
-    border-top: 0 !important;
+    border-top: 0!important;
 }
 
 .weui-cells:after {

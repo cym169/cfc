@@ -2,7 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './personalData'
-import {WechatPlugin, AjaxPlugin} from 'vux'
+import { WechatPlugin, AjaxPlugin } from 'vux'
 import Vuex from 'vuex'
 import * as actions from '../../store/actions.js'
 import state from '../../store/state.js'
@@ -19,7 +19,7 @@ let store = new Vuex.Store({
     actions
 })
 
-Vue.filter('dateFormat', function (value) {
+Vue.filter('dateFormat', function(value) {
     let time = new Date(value)
     let y = time.getFullYear()
     let m = time.getMonth() + 1
@@ -38,5 +38,5 @@ new Vue({
     el: '#app',
     store,
     template: '<App/>',
-    components: {App}
+    components: { App }
 })
