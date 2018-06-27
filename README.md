@@ -1,15 +1,12 @@
-# vue-pages
+# cfc微信公众号多页面应用
 
-> A Vue.js project
+> 这个是我找的一个项目demo，只做了一半，不过无关紧要。我另外的一个vue单页面改造为多页面的模板项目就是参考这个项目的代码来的，今天正好闲着没事做就把代码传上来，希望有缘人能在这个demo代码里面找到自己需要的东西。
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-yarn
+$ npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+$ npm run dev
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
